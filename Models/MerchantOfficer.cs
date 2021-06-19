@@ -1,0 +1,39 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TestShaparak.Models
+{
+    public class MerchantOfficer
+    {
+        public string firstNameFa { get; set; }
+        public string lastNameFa { get; set; }
+        public string fatherNameFa { get; set; }
+        public string firstNameEn { get; set; }
+        public string lastNameEn { get; set; }
+        public string fatherNameEn { get; set; }
+        public GenderEnum? gender { get; set; }
+        public long? birthDate { get; set; }
+      
+        public string nationalCode { get; set; }
+        
+        public ResidencyTypeEnum residencyType { get; set; }
+        public VitalStatusEnum vitalStatus { get; set; }
+        public long? birthCrtfctNumber { get; set; }
+        public long? birthCrtfctSerial { get; set; }
+        public long? birthCrtfctSeriesLetter { get; set; }
+        public long? birthCrtfctSeriesNumber { get; set; }
+     
+        public string commercialCode { get; set; }
+        public string countryCode { get; set; }
+        public string foreignPervasiveCode { get; set; }
+        public string passportNumber { get; set; }
+        public long passportExpireDate { get; set; }
+       // public string Description { get; set; }
+        public UpdateActionEnum updateAction { get; set; }
+
+
+    }
+}
